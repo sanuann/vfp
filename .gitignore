@@ -1,5 +1,9 @@
-data/input/*
-data/output/*
+data/input/audios
+data/input/original_audios
+data/output/
+*/cache-wf/*
+audios
+
 
 .DS_Store
 
