@@ -12,7 +12,7 @@ Note:
 
 ## 1. Data
 
-(TODO) Available at Open Science Framework:
+Available at [Open Science Framework](https://osf.io/7q2ux/)
 
 #### 1.1. Demographic information 
 * `./data/input/VFP_DeidentifiedDemographics.csv` De-identified demographic information
