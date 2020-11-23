@@ -1,6 +1,6 @@
 # Detecting Vocal Fold Paralysis (VFP) with machine learning
 
-**Cite this paper if using the data:**
+**Cite this article if using the data:**
 
 Low, D. M., Randolph, G., Rao, V., Ghosh, S. S. & Song, P., C. (2020). Uncovering the important acoustic features for detecting vocal fold paralysis with explainable machine learning. MedRxiv. 
 

@@ -1,7 +1,8 @@
 data/input/audios
 data/input/original_audios
-data/output/
-*/cache-wf/*
+data/output/*/cache-wf
+data/output/*/messages
+data/output/*/outputs/
 audios
 
 
