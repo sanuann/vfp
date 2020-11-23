@@ -6,13 +6,14 @@ Low, D. M., Randolph, G., Rao, V., Ghosh, S. S. & Song, P., C. (2020). Uncoverin
 
 
 
+## 1. Data
+
 Note: 
 * "speech" refers to "reading" task in manuscript.
 * The original audio wav files cannot be shared due to consent restrictions. Here we provide the extracted eGeMAPS features (see manuscript for details).
 
-## 1. Data
 
-Available at [Open Science Framework](https://osf.io/7q2ux/)
+<!--Available at [Open Science Framework](https://osf.io/7q2ux/)-->
 
 #### 1.1. Demographic information 
 * `./data/input/VFP_DeidentifiedDemographics.csv` De-identified demographic information
