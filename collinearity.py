@@ -23,7 +23,7 @@ input_dir = './data/outputs/vfp_v7_indfact/'
 n_features = 88
 run_vif = False #traditional method for multicollinearity, but is only linear
 run_independence_factor = True # Out method
-run_nested_crossvalidation_test = True
+run_nested_crossvalidation_test = False
 
 
 class ReduceVIF(BaseEstimator, TransformerMixin):
@@ -135,6 +135,16 @@ def vif_calculator(r2):
 	return 1 / (1 - r2)
 
 if __name__ == "__main__":
+
+	df2 = pd.read_csv(input_dir + 'northwestern_compare16_vector_freeresp_anh.csv', index_col= 0)
+	features = df.drop('name', axis=1).columns.values
+
+	X_if = df2[features].copy()
+	# X_if = X_if.iloc[:30,:30]
+
+	transformer = ReduceVIF(thresh=5)
+	X_if, variables_drop = transformer.fit_transform(X_if, y=None)
+
 
 	if run_vif:
 
